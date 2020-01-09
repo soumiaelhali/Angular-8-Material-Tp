@@ -1,0 +1,15 @@
+{
+    "Users": [
+      {
+        "id": 1,
+        "fullname": "json-server",
+        "email": "typicode",
+        "mobile": "",
+        "city": "",
+        "gender": "",
+        "department": "",
+        "hireDate": "",
+        "isPermanent": ""
+      }
+    ]
+  }
