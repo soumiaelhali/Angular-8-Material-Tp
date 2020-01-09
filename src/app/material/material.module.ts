@@ -1,8 +1,11 @@
-import { NgModule } from "@angular/core";
-import { CommonModule } from "@angular/common";
-import * as Material from "@angular/material";
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import * as Material from"@angular/material";
+
+
 
 @NgModule({
+  declarations: [],
   imports: [
     CommonModule,
     Material.MatToolbarModule,
@@ -14,9 +17,9 @@ import * as Material from "@angular/material";
     Material.MatCheckboxModule,
     Material.MatDatepickerModule,
     Material.MatNativeDateModule,
-    Material.MatButtonModule
+    Material.MatButtonModule,
   ],
-  exports: [
+  exports:[
     Material.MatToolbarModule,
     Material.MatGridListModule,
     Material.MatFormFieldModule,
@@ -26,8 +29,7 @@ import * as Material from "@angular/material";
     Material.MatCheckboxModule,
     Material.MatDatepickerModule,
     Material.MatNativeDateModule,
-    Material.MatButtonModule
-  ],
-  declarations: []
+    Material.MatButtonModule,
+  ]
 })
-export class MaterialModule {}
+export class MaterialModule { }
