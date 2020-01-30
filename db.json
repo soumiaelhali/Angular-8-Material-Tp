@@ -1,0 +1,15 @@
+{
+  "users": [
+    {
+      "id": 3,
+      "fullName": "ry",
+      "email": "rtyr@gmail.com",
+      "mobile": "07777444",
+      "city": "rty",
+      "gender": "2",
+      "department": "3",
+      "hireDate": "2020-01-13T23:00:00.000Z",
+      "isPermanent": true
+    }
+  ]
+}

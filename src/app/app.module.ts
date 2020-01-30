@@ -10,13 +10,16 @@ import { MaterialModule } from './material/material.module';
 import { UserService } from './services/user.service';
 import { ReactiveFormsModule, FormsModule} from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { UserListComponent } from './users/user-list/user-list.component';
+import { AppRoutingModule } from './app-routing.module';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     UsersComponent,
-    UserComponent
+    UserComponent,
+    UserListComponent
   ],
   imports: [
     BrowserModule,
@@ -25,7 +28,8 @@ import { HttpClientModule } from '@angular/common/http';
     MaterialModule, 
     ReactiveFormsModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    AppRoutingModule
   ],
   providers: [UserService],
   bootstrap: [AppComponent]
